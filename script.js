@@ -10,4 +10,11 @@ function palindrome(str){
 	}
 	return true;
 }
+
+const string = prompt('Enter a string: ');
+
+// call the function
+const value = checkPalindrome(string);
+
+console.log(value);
 module.exports = palindrome
